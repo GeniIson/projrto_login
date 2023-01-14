@@ -1,0 +1,123 @@
+@charset "UTF-8";
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    background-color: rgba(8, 36, 43, 0.952);
+    height: 100vh;
+    width: 100vw;
+    
+
+}
+main{
+position: relative;
+height: 100vh;
+width: 100vw;
+
+
+}
+section#login{
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: rgba(233, 226, 226, 0.164);
+    width: 90%;
+    height: 95%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473) ;
+
+    transition: width 1s, height 1s;
+}
+section#login>div#imagem{
+    display: block;
+    background: rgba(25, 5, 43, 0.384) url(../imagens/ps1b.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 50%;
+    
+
+   
+    height: 25%;
+}
+section#login>div#formulario{
+    background-color: rgba(250, 235, 215, 0.486);
+    display: block;
+    padding: 10px;
+    bottom: 10%;
+    width: 100%;
+    height: 90%;
+}
+h1{
+    text-align: center;
+}
+
+form> input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(10, 80, 128, 0.932);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form> input[type=submit]:hover{
+    
+    background-color: rgb(14, 129, 206);
+   
+}
+#i-email{
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.campo{
+    background-color: bisque;
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 0px;
+    
+}
+#ico{
+    
+    color:rgb(12, 1, 1);
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    
+}
+div.campo>input{
+    background-color: white;
+    font-size: 1em;
+   
+    width: calc(100% - 45.6px);
+    transform: translateY(-11px);
+    height: 90%;
+    color: rgb(1, 15, 15);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+}
+
+.campo>label{
+    display: none;
+}
+.lem{
+    text-align: center;
+    margin: 20px ;
+}
